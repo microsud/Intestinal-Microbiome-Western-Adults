@@ -1,0 +1,82 @@
+taxon_oid	Domain	Status	Study Name	Genome Name / Sample Name	Sequencing Center	Genome Size 	Gene Count 	
+2636415438	Bacteria	Permanent Draft	Clostridium sordellii 8483	Clostridium sordellii 8483	Cornell University	7808455	8736	
+645951834	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Butyrivibrio crossotus DSM 2876	Washington University in St. Louis	2482791	2546	
+642979312	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Bifidobacterium catenulatum DSM 16992, JCM 1194, LMG 11043	Washington University in St. Louis	2058429	2009	
+642979371	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Clostridium hiranonis TO-931 DSM 13275	Washington University in St. Louis	2423348	2302	
+2562617166	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Prevotella copri CB7, DSM 18205	Washington University in St. Louis	3507873	3414	
+650377967	Bacteria	Finished	Human Microbiome Project (HMP) Reference Genomes	Ruminococcus obeum A2-162	Wellcome Trust Sanger Institute	3757491	3210	
+645951836	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Prevotella veroralis F0319	Washington University in St. Louis	2986735	3110	
+2602041616	Bacteria	Permanent Draft	Draft genome sequencing of Oscillospiraceae bacterium VE202-24	Oscillospiraceae bacterium VE202-24	University of Tokyo	3234547	3892	
+2588254076	Bacteria	Permanent Draft	Comparative genomics of human mucosal isolates of the enterotoxigenic Bacteroides fragilis group, etiologic agents of inflammatory diarrheal disease.	Bacteroides uniformis 3978 T3 i	University of Maryland School of Medicine	5047633	4497	
+2524614531	Bacteria	Permanent Draft	Genomic Encyclopedia of Type Strains, Phase I: the one thousand microbial genomes (KMG-I) project	Anaerovorax odorimutans DSM 5092	DOE Joint Genome Institute (JGI)	3265634	3015	
+2562617142	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Bacteroides finegoldii DSM 17565	Washington University in St. Louis	4881901	4557	
+649989989	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Prevotella salivae DSM 15606	Baylor College of Medicine	3140543	2992	
+640753008	Bacteria	Finished	Bacteroides vulgatus ATCC 8482	Bacteroides vulgatus ATCC 8482	Washington University in St. Louis	5163189	4195	
+2537561664	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Bacteroides nordii CL02T12C05	Broad Institute	5707589	4506	
+649633033	Bacteria	Finished	Clostridium sticklandii DSM 519	Clostridium sticklandii DSM 519	CEA Genoscope	2715461	2688	
+2531839303	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Bacteroides caccae CL03T12C61	Broad Institute	5479119	4674	
+640963022	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Eubacterium ventriosum ATCC 27560	Washington University in St. Louis	2869695	2892	
+641380422	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Coprococcus eutactus ATCC 27759	Washington University in St. Louis	3102087	3065	
+640612206	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Collinsella aerofaciens ATCC 25986	Washington University in St. Louis	2439869	2440	
+2537561665	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Bacteroides salyersiae CL02T12C01	Broad Institute	5781840	4677	
+2529293058	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Parabacteroides merdae CL03T12C32	Broad Institute	4918045	4248	
+2524614700	Bacteria	Permanent Draft	The Hungate 1000. A catalogue of reference genomes from the rumen microbiome.	Clostridium paraputrificum AGR2156	DOE Joint Genome Institute (JGI)	3561289	3568	
+641736227	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Anaerostipes caccae DSM 14662	Washington University in St. Louis	3605636	3845	
+2562617078	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Subdoligranulum variabile DSM 15176	Washington University in St. Louis	3237471	3450	
+2513237343	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Dorea formicigenerans 4_6_53AFAA	Broad Institute	3825700	3902	
+641736205	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Alistipes putredinis DSM 17216	Washington University in St. Louis	2549878	2799	
+2541047518	Bacteria	Permanent Draft	Clostridium bifermentans ATCC 638	Clostridium bifermentans ATCC 638	University of Maryland School of Medicine	3609653	3652	
+2558860357	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Prevotella oralis CC98A	Broad Institute	2981962	2550	
+648028051	Bacteria	Finished	Human Microbiome Project (HMP) Reference Genomes	Prevotella melaninogenica ATCC 25845	J. Craig Venter Institute (JCVI)	3168282	2361	
+641380427	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Clostridium leptum DSM 753	Washington University in St. Louis	3270109	3983	
+2523533604	Bacteria	Permanent Draft	Genomic Encyclopedia of Type Strains, Phase I: the one thousand microbial genomes (KMG-I) project	Clostridium tyrobutyricum DSM 2637	DOE Joint Genome Institute (JGI)	3028196	3061	
+2593339225	Bacteria	Draft	The Hungate 1000. A catalogue of reference genomes from the rumen microbiome.	Ruminococcus bromii YE282	DOE Joint Genome Institute (JGI)	2539482	2571	
+2597489878	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Clostridium orbiscindens 1_3_50AFAA	Broad Institute	4323157	4375	
+2541047090	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Bifidobacterium bifidum ATCC 29521	Washington University in St. Louis	2198551	2165	
+2515154199	Bacteria	Permanent Draft	Genomic Encyclopedia of Type Strains, Phase I: the one thousand microbial genomes (KMG-I) project	Clostridium glycolicum ATCC 14880	DOE Joint Genome Institute (JGI)	4003570	3918	
+650377941	Bacteria	Finished	Human Microbiome Project (HMP) Reference Genomes	Faecalibacterium prausnitzii L2-6	Wellcome Trust Sanger Institute	3321367	2820	
+642555104	Bacteria	Finished	Akkermansia muciniphila	Akkermansia muciniphila ATCC BAA-835	DOE Joint Genome Institute (JGI)	2664102	2238	
+2645727757	Bacteria	Finished	Clostridium baratii str. Sullivan Genome sequencing	Clostridium baratii str. Sullivan	Los Alamos National Laboratory	3338630	3286	
+2563367119	Bacteria	Permanent Draft	Streptococcus mutans str. B16 P Sm1	Streptococcus mutans B16 P Sm1	New York University College of Dentistry	2329852	2290	
+2582580713	Bacteria	Permanent Draft	The Hungate 1000. A catalogue of reference genomes from the rumen microbiome.	Streptococcus bovis AG46	DOE Joint Genome Institute (JGI)	1930741	1924	
+642979369	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Clostridium nexile DSM 1787	Washington University in St. Louis	3861016	4297	
+642979351	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Bacteroides plebeius M12, DSM 17135	Washington University in St. Louis	4421324	4022	
+2562617146	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Collinsella intestinalis DSM 13280	Washington University in St. Louis	1804297	1846	
+2531839013	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Clostridium butyricum 60E.3	Broad Institute	4618205	4232	
+2562617090	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Marvinbryantia formatexigens I-52	Washington University in St. Louis	4548960	4960	
+649990014	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Streptococcus oralis ATCC 49296	Baylor College of Medicine	2054852	2052	
+2597490297	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Ruminococcus callidus ATCC 27760	Washington University in St. Louis	3070687	2913	
+2515154173	Bacteria	Permanent Draft	Genomic Encyclopedia of Type Strains, Phase I: the one thousand microbial genomes (KMG-I) project	Prevotella intermedia ATCC 25611	DOE Joint Genome Institute (JGI)	2575089	2248	
+643886203	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Eubacterium hallii DSM 3353	Washington University in St. Louis	3290996	3297	
+650377937	Bacteria	Finished	Human Microbiome Project (HMP) Reference Genomes	Eubacterium rectale M104/1	Wellcome Trust Sanger Institute	3698419	3267	
+2513237318	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Prevotella stercorea DSM 18206	Washington University in St. Louis	3092669	3066	
+2563367072	Bacteria	Permanent Draft	Clostridium beijerinckii AAU1_buffalo	Clostridium beijerinckii AAU1_buffalo	Anand Agricultural University	6954347	10315	
+2515154067	Bacteria	Draft	Genomic variation in Bacteroides isolates	Bacteroides thetaiotaomicron NLAE-zl-H492	Iowa State University	6792460	5906	
+2524023202	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Clostridium celatum DSM 1785	Washington University in St. Louis	3553721	3484	
+641736113	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Clostridium bartlettii DSM 16795	Washington University in St. Louis	2971856	2875	
+641736153	Bacteria	Permanent Draft	Clostridium perfringens CPE F4969	Clostridium perfringens CPE F4969	J. Craig Venter Institute (JCVI)	3510272	3116	
+2639762740	Bacteria	Finished	Clostridium cellulosi DG5	Clostridium cellulosi DG5	Center for Biotechnology (CeBiTec), Bielefeld Univeristy	2229578	2076	
+650377904	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Alistipes shahii WAL 8301	Wellcome Trust Sanger Institute	3763317	2616	
+2585428020	Bacteria	Permanent Draft	Streptococcus mitis genome project, IGS	Streptococcus mitis SK629	University of Maryland, Aarhus University	2213700	2209	
+2582581006	Bacteria	Permanent Draft	Prevotella Genome sequencing - Univ of Tokyo	Prevotella albensis JCM 12258	University of Tokyo	2674720	2602	
+2588254081	Bacteria	Permanent Draft	Comparative genomics of human mucosal isolates of the enterotoxigenic Bacteroides fragilis group, etiologic agents of inflammatory diarrheal disease.	Parabacteroides distasonis 3776 D15 iv	University of Maryland School of Medicine	5422204	4803	
+2545555826	Bacteria	Permanent Draft	The Hungate 1000. A catalogue of reference genomes from the rumen microbiome.	Ruminococcus gnavus AGR2154	DOE Joint Genome Institute (JGI)	3724077	3784	
+2563367169	Bacteria	Permanent Draft	Parabacteroides goldsteinii dnLKV18	Parabacteroides goldsteinii dnLKV18	Broad Institute	7066206	5752	
+2537561663	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Bacteroides ovatus CL02T12C04	Broad Institute	7880760	6465	
+650716024	Bacteria	Finished	Clostridium acetobutylicum DSM 1731	Clostridium acetobutylicum DSM 1731	Chinese Academy of Sciences	4145581	4029	
+2588254267	Bacteria	Draft	Genomic Encyclopedia of Type Strains, Phase I: the one thousand microbial genomes (KMG-I) project	Papillibacter cinnamivorans DSM 12816	DOE Joint Genome Institute (JGI)	2890610	2751	
+642791613	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Bacteroides coprocola M16, DSM 17136	Washington University in St. Louis	4295617	4394	
+2585427861	Bacteria	Permanent Draft	Bacterioides species genome sequencing - The University of Tokyo	Bacteroides fragilis JCM 11017	University of Tokyo	5270831	5342	
+2562617159	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Roseburia intestinalis L1-82	Washington University in St. Louis	4380675	4776	
+642791615	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Clostridium sporogenes ATCC 15579	Washington University in St. Louis	4102125	3869	
+2526164710	Bacteria	Permanent Draft	Genomic Encyclopedia of Type Strains, Phase I: the one thousand microbial genomes (KMG-I) project	Clostridium difficile DSM 1296	DOE Joint Genome Institute (JGI)	4215232	3935	
+2585428085	Bacteria	Draft	Genomic Encyclopedia of Type Strains, Phase I: the one thousand microbial genomes (KMG-I) project	Sporobacter termitidis DSM 10068	DOE Joint Genome Institute (JGI)	4198214	3867	
+651053005	Bacteria	Finished	Human Microbiome Project (HMP) Reference Genomes	Bifidobacterium breve ACS-071-V-Sch8b	J. Craig Venter Institute (JCVI)	2327492	1890	
+2597490298	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Clostridium symbiosum ATCC 14940	Washington University in St. Louis	4810675	4440	
+2582580968	Bacteria	Permanent Draft	Diveristy of Clostridium botulinum type F strains CDC	Clostridium botulinum CDC54091	Centers for Disease Control and Prevention (CDC), USA	4079045	5896	
+642979321	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Collinsella stercoris DSM 13279	Washington University in St. Louis	2399821	2585	
+2509601035	Bacteria	Finished	A Genomic Encyclopedia of Bacteria and Archaea (GEBA)	Alistipes finegoldii AHN 2437, DSM 17242	DOE Joint Genome Institute (JGI)	3734239	3302	
+2558860360	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Ruminococcus lactaris CC59_002D	Broad Institute	3051582	2832	
+2524614698	Bacteria	Permanent Draft	The Hungate 1000. A catalogue of reference genomes from the rumen microbiome.	Clostridium cadaveris AGR2141	DOE Joint Genome Institute (JGI)	3542160	3459	
+650377912	Bacteria	Finished	Human Microbiome Project (HMP) Reference Genomes	Bifidobacterium longum longum F8	Wellcome Trust Sanger Institute	2384987	1744	
+641736271	Bacteria	Permanent Draft	Human Microbiome Project (HMP) Reference Genomes	Anaerotruncus colihominis DSM 17241	Washington University in St. Louis	3718888	4506	
