@@ -13,11 +13,11 @@ We will make a phyloseq object to easily analyse the data using microbiome packa
 ```{r }
 library(microbiome)
 library(phyloseq)
-otu_table<- read.csv("D:/R_package/Metahit anlaysis/IGC_genus_data.csv",row.names=1,check.names=FALSE) #we read the otu table first
+otu_table<- read.csv("D:/../../IGC_genus_data.csv",row.names=1,check.names=FALSE) #we read the otu table first
 #abund_table<-t(abund_table)
 grouping_info<-data.frame(row.names=rownames(otu_table),t(as.data.frame(strsplit(rownames(otu_table),"_")))) #and check the grouping information
 head(grouping_info)
-meta_table<-read.csv("D:/R_package/Metahit anlaysis/IGC_Metadata.csv",row.names=1,check.names=T)
+meta_table<-read.csv("D:/../../IGC_Metadata.csv",row.names=1,check.names=T)
 sampleData=sample_data(meta_table)
 ```
 
