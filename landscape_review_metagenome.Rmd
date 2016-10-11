@@ -1,0 +1,81 @@
+---
+title: "Intestinal-Microbiome-Western-Adults"
+author: "Sudarshan A. Shetty"
+output: html_document
+---
+
+
+### R Markdown for the review by Shetty et al. "Intestinal microbiome landscaping: Insight in community assemblage and implications for microbial modulation strategies "
+
+Please use the files available at https://github.com/microsud/Intestinal-Microbiome-Western-Adults
+We will make a phyloseq object to easily analyse the data using microbiome package.
+
+```{r }
+library(microbiome)
+library(phyloseq)
+otu_table<- read.csv("D:/R_package/Metahit anlaysis/IGC_genus_data.csv",row.names=1,check.names=FALSE) #we read the otu table first
+#abund_table<-t(abund_table)
+grouping_info<-data.frame(row.names=rownames(otu_table),t(as.data.frame(strsplit(rownames(otu_table),"_")))) #and check the grouping information
+head(grouping_info)
+meta_table<-read.csv("D:/R_package/Metahit anlaysis/IGC_Metadata.csv",row.names=1,check.names=T)
+sampleData=sample_data(meta_table)
+```
+
+Now we merge all the files into one phyloseq object.
+
+```{r }
+otumat<-as.matrix(otu_table)
+OTU = otu_table(otu_table, taxa_are_rows = TRUE)
+
+sampleData=sample_data(meta_table)
+ps.igc <- merge_phyloseq(OTU, sampleData)
+
+##We now need to remove the data from the Chinese population.
+
+igc.eu <-subset_samples(ps.igc, Nationality != "Chinese")
+igc.eu <- prune_taxa(taxa_sums(igc.eu) > 0, igc.eu)
+
+```
+
+We set certain threshold to limit the data analysis to only taxa present at a minimum relative abundance of 0.0001 and present in 25% of the samples.
+```{r}
+
+igc.eu1 <- filter_prevalent(igc.eu, detection.threshold = 0.0001, prevalence.threshold = 0.25)
+head(prevalence(igc.eu1, detection.threshold = 0.0001, sort = TRUE))
+head(prevalence(igc.eu1, detection.threshold = 0.0001, sort = TRUE, relative = FALSE))
+core.taxa <- core(igc.eu1, detection.threshold = 0.0001, prevalence.threshold = 95)
+core.abundance <- core_abundance(igc.eu1, detection.threshold = 0.0001, prevalence.threshold = 95)
+core.taxa
+```
+
+For plotting the figure we will set certain parameters. 
+
+```{r}
+
+prevalence.intervals <- seq(5, 100, 5)
+detection.thresholds <- 10^seq(log10(1e-4), log10(20), length = 20)
+
+library(RColorBrewer)
+res <- plot_core(igc.eu1, plot.type = "heatmap",
+                 #colours = colorRampPalette(rev(brewer.pal(11, "Spectral")))(5),
+                 colours = rev(brewer.pal(5, "Spectral")),
+                 prevalence.intervals = prevalence.intervals,
+                 detection.thresholds = detection.thresholds,
+                 min.prevalence = 50)         
+res
+library(ggplot2)
+res + ggtitle("Phylogenetic Core of 840 Western Adults Based on Metagenomic data") + xlab("Detection Threshold (Relative Abundance %)")
+
+### we will now read check the prevalences and detection thresholds
+library(knitr)
+prevalences <- res$data
+kable(head(prevalences))
+kable(prevalences)
+prev_k <- kable(prevalences)
+prevdf <- as.matrix(prev_k)
+write.table(prevdf, "prevalences.txt")
+
+```
+
+
+
