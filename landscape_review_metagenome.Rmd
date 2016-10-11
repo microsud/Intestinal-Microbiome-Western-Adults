@@ -8,7 +8,12 @@ output: html_document
 ### R Markdown for the review by Shetty et al. "Intestinal microbiome landscaping: Insight in community assemblage and implications for microbial modulation strategies "
 
 Please use the files available at https://github.com/microsud/Intestinal-Microbiome-Western-Adults
-We will make a phyloseq object to easily analyse the data using microbiome package.
+
+We will make a phyloseq object to easily analyse the data using microbiome package which is maintianed by Leo Lahti (GitHub: https://github.com/antagomir).
+
+The codes and details of these can be found at https://github.com/microbiome/microbiome
+
+
 
 ```{r }
 library(microbiome)
