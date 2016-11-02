@@ -7,7 +7,7 @@ Reference:
 
 Metagenome based Genus compositions:
 
-Qin, J., Li, R., Raes, J., Arumugam, M., Burgdorf, K.S., Manichanh, C., Nielsen, T., Pons, N., Levenez, F., Yamada, T. and Mende, D.R., 2010. A human gut microbial gene catalogue established by metagenomic sequencing. nature, 464(7285), pp.59-65.
+Li, J., Jia, H., Cai, X., Zhong, H., Feng, Q., Sunagawa, S., Arumugam, M., Kultima, J.R., Prifti, E., Nielsen, T. and Juncker, A.S., 2014. An integrated catalog of reference genes in the human gut microbiome. Nature biotechnology, 32(8), pp.834-841.
 
 Microbiome package: https://github.com/microbiome/microbiome
 
