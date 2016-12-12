@@ -14,3 +14,8 @@ Li, J., Jia, H., Cai, X., Zhong, H., Feng, Q., Sunagawa, S., Arumugam, M., Kulti
 Microbiome package: https://github.com/microbiome/microbiome
 
 HITChip profiling data from http://www.nature.com/articles/ncomms5344 by Lahti et al., 2014
+
+qgraph pacakge :  http://sachaepskamp.com/qgraph
+
+Phyloseq: https://joey711.github.io/phyloseq/
+
