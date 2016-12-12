@@ -17,9 +17,9 @@ library("qgraph")
 ###Before we start with the anlaysis there are a few steps that need to be completed.  
 
 1] Download the compelte repository (right hand corner)  
-file downloaded = Intestinal-Microbiome-Western-Adults-master.zip
-2] Unzip the file "Intestinal-Microbiome-Western-Adults-master.zip"  
-3] set this as the working directory  
+   file that you have downloaded is "Intestinal-Microbiome-Western-Adults-master.zip"
+2] Unzip the file "Intestinal-Microbiome-Western-Adults-master.zip" 
+3] Set this as the working directory using the command below "setwd()"
 
 ```{r cars}
 setwd("D:/Intestinal-Microbiome-Western-Adults-master")
