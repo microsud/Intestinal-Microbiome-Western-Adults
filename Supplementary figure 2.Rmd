@@ -4,6 +4,7 @@ author: "Sudarshan A. Shetty"
 date: "December 2016"
 output: word_document
 ---
+###This will create the dot.plot for Cumulative fractional abundance of bacteria observed using mechanical and non-mechanical DNA extraction methodds  
 
 ```{r , fig.height=8, fig.width=6}
 library(microbiome)
