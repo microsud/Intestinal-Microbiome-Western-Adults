@@ -78,5 +78,5 @@ qab <- qgraph(genome.cor, minimum = 0.5, fade = TRUE, vsize = 1.5, layout = "spr
 
 ```
 
-###Further colouring based on phylum affiliation was done in Adobe!!
+###Further colouring based on phylum affiliation was done in Adobe.
 
