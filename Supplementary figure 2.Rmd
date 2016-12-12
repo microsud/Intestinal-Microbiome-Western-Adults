@@ -1,0 +1,41 @@
+---
+title: "Supplemetnary figure"
+author: "Sudarshan A. Shetty"
+date: "December 2016"
+output: word_document
+---
+
+```{r , fig.height=8, fig.width=6}
+library(microbiome)
+library(ggplot2)
+
+
+#Supplementary figure 2: 
+#Ranked abundance
+data("atlas1006")
+pseq <- atlas1006
+
+notrbb <-subset_samples(pseq, DNA_extraction_method != "r" & time == "0")
+pseq.rel <- transform_sample_counts(notrbb, function (x) {x/sum(x)})
+N <- 34
+all <- sort(taxa_sums(pseq.rel), TRUE)[1:N]/nsamples(pseq.rel)
+class(all)
+all <- sort(all)
+
+dotchart(all, col= "steelblue", xlab="Cumulative fractional abundance", pch=16, cex=.8)
+
+#only mechanical DNA extraction
+
+rbb <-subset_samples(pseq, DNA_extraction_method == "r" & time == "0")
+pseq.rel <- transform_sample_counts(rbb, function (x) {x/sum(x)})
+N <- 34
+all <- sort(taxa_sums(pseq.rel), TRUE)[1:N]/nsamples(pseq.rel)
+class(all)
+all <- sort(all)
+
+dotchart(all, col= "steelblue", xlab="Cumulative fractional abundance", pch=16, cex=.8)
+
+
+```
+
+###Further changes in the coloring was done in Inkscape
