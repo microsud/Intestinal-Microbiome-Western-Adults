@@ -28,7 +28,7 @@ setwd("D:/Intestinal-Microbiome-Western-Adults-master")
 getwd()
 ```
 
-###We will noe read the files. you have to chose the file ("genome_koabundance.txt") in the new select window that will pop-ip after you run the script "file= choose.files(multi=F)"
+###We will noe read the files. you have to chose the file ("genome_koabundance.txt") in the new select window that will pop-up after you run the script "file= choose.files(multi=F)"
 
 
 ```{r}
