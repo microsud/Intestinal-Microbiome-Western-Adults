@@ -1,0 +1,82 @@
+---
+title: "Figure 2 and 3"
+author: "Sudarshan A. Shetty"
+date: "December 2016"
+output: html_document
+---
+
+---
+
+```{r, fig.height=6, fig.width=8}
+library("reshape")
+library("ggplot2")
+library("qgraph")
+
+```
+
+###Before we start with the anlaysis there are a few steps that need to be completed.  
+
+1] Download the compelte repository (right hand corner)  
+file downloaded = Intestinal-Microbiome-Western-Adults-master.zip
+2] Unzip the file "Intestinal-Microbiome-Western-Adults-master.zip"  
+3] set this as the working directory  
+
+```{r cars}
+setwd("D:/Intestinal-Microbiome-Western-Adults-master")
+
+# You can check the working directory now by typing
+getwd()
+```
+
+###We will noe read the files. you have to chose the file ("genome_koabundance.txt") in the new select window that will pop-ip after you run the script "file= choose.files(multi=F)"
+
+
+```{r}
+setwd("D:/Intestinal-Microbiome-Western-Adults-master")
+
+file= choose.files(multi=F)
+ko_abundance= read.table(file,sep="\t", header=T, row.names=1)
+
+```
+
+## Creating the plots
+```{r}
+#we now calculate the Spearman rank correlation 
+genome.cor<- cor(ko_abundance, method="spearman")
+
+#check the file
+head(genome.cor)
+#load the following packages
+library("reshape")
+library("ggplot2")
+
+#format the data for use in ggplot2
+cor.dat <- melt(genome.cor)
+
+###Identifying the correlation distribution profile
+cor.dist.plot <- ggplot(cor.dat, aes(x=value), geom = "histogram", size= 2, color = "#CC79A7") + stat_bin(binwidth = 0.01, fill = "#807dba") + theme(axis.title.x = element_text(colour = "black", size= 4), axis.title.y = element_text(colour = "black", size=4)) + labs(x= " Correlation values Spearman correlation", y= "Counts" , size= 4) + theme_grey()
+
+print(cor.dist.plot)
+
+```
+
+
+```{r,fig.height=8, fig.width=8}
+#Plot the pairwise Spearman’s correlation
+cor.pair.plot <- ggplot(cor.dat, aes(value, X1), geom= "bar", fill= ..count..) + geom_jitter(aes(x=value,y=X1), color = "#807dba", shape=18) + labs(x= " Correlation values (Pearson coefficient)", y= "Genome of representative core bacteria") + scale_x_continuous(limits = c(0.2, 1)) + theme_bw() + theme(axis.text.y = element_text(size=8, face = "italic")) 
+print(cor.pair.plot)
+
+```
+
+```{r }
+library("qgraph")
+
+#set node attribute
+labels_row <- rownames(genome.cor)
+set.seed(12134)
+qab <- qgraph(genome.cor, minimum = 0.5, fade = TRUE, vsize = 1.5, layout = "spring", vTrans = 255, node.labels= TRUE, edge.labels=FALSE, rotation= "45", labels = labels_row, label.cex = 0.4, label.scale= F, edge.color= "#00CDCD")
+
+```
+
+###Further colouring based on phylum affiliation was done in Adobe Illustrator!!
+
