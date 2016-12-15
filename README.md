@@ -2,6 +2,7 @@
 Files and codes used for analysis of data reported in the review by Shetty et al. 2016.  
 
 ##Intestinal microbiome landscaping: Insight in community assemblage and implications for microbial modulation strategies
+https://microsud.github.io/Intestinal-Microbiome-Western-Adults/
 
 You can find step-wise information in the *.Rmd file
 
