@@ -8,7 +8,7 @@ https://microsud.github.io/Intestinal-Microbiome-Western-Adults/
 
 You can find step-wise information in the *.Rmd file
 
-#Reference:
+###Reference:
 
 Metagenome based Genus compositions:
 
