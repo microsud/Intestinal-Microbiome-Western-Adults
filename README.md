@@ -1,7 +1,8 @@
 ##Intestinal microbiome landscaping: Insight in community assemblage and implications for microbial modulation strategies  
 
-Files and codes used for analysis of data reported in the review by Shetty et al. 2016.  
+Files and codes used for analysis of data reported in the review Sudarshan A. Shetty, Floor Hugenholtz, Leo Lahti, Hauke Smidt, Willem M. de Vos; Intestinal microbiome landscaping: insight in community assemblage and implications for microbial modulation strategies. FEMS Microbiol Rev 2017 fuw045. doi: 10.1093/femsre/fuw045  
 
+https://academic.oup.com/femsre/article/doi/10.1093/femsre/fuw045/2979411/Intestinal-microbiome-landscaping-insight-in  
 
 https://microsud.github.io/Intestinal-Microbiome-Western-Adults/
 
